@@ -1,10 +1,10 @@
-import PhoneForm from "components/PhoneForm/PhoneForm";
 import React from "react";
-import "./App.css";
-import { v4 as uuidv4 } from "uuid";
+import PhoneForm from "components/PhoneForm/PhoneForm";
 import FilterContacts from "components/FilterContacts/FilterContacts";
 import ContactList from "components/ContactList/ContactList";
 import MainContainer from "components/MainContainer/MainContainer";
+import { v4 as uuidv4 } from "uuid";
+import "./App.css";
 
 class App extends React.Component {
   constructor() {

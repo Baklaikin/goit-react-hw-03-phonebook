@@ -1,4 +1,3 @@
-// import { v4 as uuidv4 } from "uuid";
 import s from "components/ContactList/ContactList.module.css";
 
 const ContactList = ({ data, onDeleteItem }) => {
